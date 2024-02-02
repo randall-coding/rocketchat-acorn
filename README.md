@@ -52,35 +52,33 @@ Visit your acorn dashboard to see if your deployment was successful.
 
 Click on the RocketChat deployment, and find the endpoint section on the right side panel.  This is your RocketChat instance link.
 
-![rocketchat_acorn_ui]()
+![rocketchat_acorn_ui](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/90123158-0ad9-4b6b-bcf6-20217132bb59)
 
-![rocketchat_endpoint]()
+![rocketchat_endpoints](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/d1c1aa09-9b20-4831-b78f-ec5a8a789f9f)
 
 ## Configure RocketChat
 
 Visit the endpoint URL for your RocketChat server. You'll land on the Admin Creation page for step 1 of the server setup. Fill in the information and go to the next step. Make sure you use a valid email address where RocketChat can send you a verification email.
 
-![rocketchat_step1]()
+![rocketchat_step1](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/27c1e113-0845-40d5-ae75-7a0b69200ebc)
 
 Fill in the organization information.
 
-![rocketchat_step2]()
+![rocketchat_step2](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/712b76f9-9c92-45e7-877f-13cd69ab959f)
 
 Register your workspace.
 
-![rocketchat_step3]()
+![rocketchat_step3](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/17b52517-c785-4ed1-a31b-a5f728802272)
 
-Check your email's inbox and you should receive a verification email from RocketChat. Click on the verification link and you should see the page below:
-
-![rocketchat_confirm]()
+Check your email's inbox and you should receive a verification email from RocketChat. Click on the verification link.
 
 After verification, you should see the dashboard of RocketChat where you can invite new users.
 
-![rocketchat_dashboard]()
+![rocketchat_dashboard](https://github.com/randall-coding/rocketchat-acorn/assets/39175191/1f798ddc-dfe6-47d6-9a99-82dfb4a15a61)
 
 ### SMTP Configuration
 
-In order to invite new team members to your chat, we'll need to set up our SMTP server.  Click on the Workspace settings link from the "three dot" dropdown menu.
+In order to invite new team members to your chat, we'll need to set up SMTP integration with our SMTP mailer.  Click on the Workspace settings link from the "three dot" dropdown menu.
 
 <img width="260" alt="Workspace Menu" src="">
 
