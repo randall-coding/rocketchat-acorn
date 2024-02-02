@@ -80,11 +80,12 @@ After verification, you should see the dashboard of RocketChat where you can inv
 
 In order to invite new team members to your chat, we'll need to set up SMTP integration with our SMTP mailer.  Click on the Workspace settings link from the "three dot" dropdown menu.
 
-<img width="260" alt="Workspace Menu" src="">
+<img width="400" alt="rocketchat_smtp1" src="https://github.com/randall-coding/rocketchat-acorn/assets/39175191/d812cb2f-0930-422d-946d-b506fe965d2d">
+
 
 Click on Settings from the left navigation bar and search for SMTP. Open the "Email" Settings.  Then choose "SMTP" and fill in the necessary fields from your existing SMTP server (as your developer if you're a non-technical person).
 
-<img width="914" alt="SMTP Form" src="">
+<img width="914" alt="rocketchat_smtp2" src="https://github.com/randall-coding/rocketchat-acorn/assets/39175191/aa90e03a-bde8-45e9-8a78-612d0c49b10d">
 
 After saving changes (and if all goes right) you should be able to invite your first user to your team chat.
 
