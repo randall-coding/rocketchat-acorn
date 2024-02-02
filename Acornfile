@@ -17,9 +17,6 @@ containers: {
     mongodb: {
         image: "docker.io/bitnami/mongodb:5.0"
         ports: expose: "27017/tcp"
-        // dirs: {
-        //     "/bitnami/mongodb": "volume://mongodbdata"
-        // }
         env: {
             MONGODB_REPLICA_SET_MODE: "primary"
             MONGODB_REPLICA_SET_NAME: "rs0"
@@ -32,8 +29,3 @@ containers: {
         }
     }
 }
-
-// volumes: mongodbdata: {
-//     size: "1Gi"
-//     accessModes: "readWriteOnce"
-// }
